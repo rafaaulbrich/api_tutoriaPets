@@ -1,0 +1,25 @@
+{
+  "name": "avaliacao-n3",
+  "version": "1.0.0",
+  "description": "API REST de tutoria de pets para a Avaliação N3 de Server-Side e Banco de Dados",
+  "scripts": {
+    "start": "node servidor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.6",
+    "sequelize": "^6.37.8"
+  },
+  "private": true,
+  "overrides": {
+    "sequelize": {
+      "uuid": "^11.1.1"
+    }
+  }
+}
